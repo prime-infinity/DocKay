@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import MainWrapper from "../components/MainWrapper"
 import  { Breakpoint } from 'react-socks';
 
 const Index = () => {
@@ -8,6 +9,8 @@ const Index = () => {
             <Breakpoint medium up>
                 <Header />
             </Breakpoint>
+
+            <MainWrapper />
              
         </div>
     )
